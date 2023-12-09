@@ -1,0 +1,17 @@
+# Игнорируем окружение
+web_venv/
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Игнорировать файлы созданные IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
