@@ -13,5 +13,5 @@ jwt = JWTManager(app_flask)
 app_flask.config['JWT_SECRET_KEY'] = os.urandom(24)
 app_flask.config["JWT_TOKEN_LOCATION"] = ["headers"]
 # app_flask.config["JWT_SECRET_KEY"] = os.
-# app_flask.config['JWT_ACCESS_TOKEN_EXPIRES'] = timedelta(days=2)
-app_flask.config['JWT_ACCESS_TOKEN_EXPIRES'] = timedelta(seconds=10)
+app_flask.config['JWT_ACCESS_TOKEN_EXPIRES'] = timedelta(days=2)
+# app_flask.config['JWT_ACCESS_TOKEN_EXPIRES'] = timedelta(seconds=10)
